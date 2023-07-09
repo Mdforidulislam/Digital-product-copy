@@ -147,7 +147,29 @@ nav a {
     width: 150px;
     height: auto;
 }
-.service-card-title ,.service-card-description{
+.service-card-title, .service-card-description{
     color: white;
     text-transform: capitalize;
+}
+/* Footer section customization */
+.main-footer, .footer-copy-right{
+      background-color: #050505;
+}
+.main-footer-container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 50px;
+    gap:50px;
+}
+.footer-info-section, .copyright-section, .footer-title{
+    color: white;
+}
+.copyright-section{
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.footer-info-section img{
+    width: 150px;
 }
