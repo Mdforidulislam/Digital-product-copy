@@ -1,0 +1,153 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* hearder section design*/
+header{
+    background-color:#424141 ;
+}
+.main-header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    
+}
+.main-header-section img{
+    width: 100px;
+}
+/* nav customization design part*/
+nav{
+    padding: 10px 10px;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: s;
+    
+}
+nav li{
+    margin-right: 15px;
+   
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* Banner section design part */
+.banner-section-container{
+    background-color: #1c1c1c;
+    height: 100vh;
+}
+.infomation-banner {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    max-width: 1000px;
+    margin:0px auto;
+    height: 100vh;
+}
+.banner-image-section img{
+    width: 300px;
+    height: auto;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 400px;
+    text-transform: capitalize;
+    color: white;
+}
+.banner-description{
+    font-size: 19px;
+    margin-top: 12px;
+    color: white;
+}
+.btn-primary{
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: none;
+}
+
+/* Contact us section customization */
+.about-us{
+    max-width: 1000px;
+    margin:100px auto;
+}
+.about-us-heading{
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    text-transform: capitalize;
+}
+.about-us-main{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50vh;
+    align-items: center;
+    gap:100px;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+}
+.about-us-image img{
+    width: 300px;
+}
+.about-info-title{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 400;
+
+}
+.about-info-descriptionf{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* My service section */
+.my-service{
+   background-color: #1a1a1a;
+   padding: 100px 0px;
+
+}
+.my-service-title{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.my-service-card{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 100px 0px;
+}
+.my-service-info{
+        text-align: center;
+        width: 250px;
+        height: 250px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 4px  2px 105px gray;
+        border-radius: 10px;
+    
+}
+.my-service-info img{
+    width: 150px;
+    height: auto;
+}
+.service-card-title ,.service-card-description{
+    color: white;
+    text-transform: capitalize;
+}
